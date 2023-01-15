@@ -1,0 +1,27 @@
+.logo {
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: $accent-color;
+}
+
+
+.logo-color {
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: $logo-header;
+
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.logo-color:hover,
+.logo-color:focus {
+    color: $accent-color;
+}
