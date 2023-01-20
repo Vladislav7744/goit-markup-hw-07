@@ -1,0 +1,25 @@
+.logo-footer {
+    display: inline-block;
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    margin-bottom: 20px;
+    color: $accent-color;
+}
+
+
+.footer-logo-color {
+    color: $primary-white-color;
+
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.footer-logo-color:hover,
+.footer-logo-color:focus {
+    color: $accent-color; 
+}

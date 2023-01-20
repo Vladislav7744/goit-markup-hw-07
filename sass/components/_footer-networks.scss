@@ -1,0 +1,37 @@
+.networks-list {
+    display: flex;
+}
+
+
+.networks-list li:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+.networks-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: $primary-white-color;
+    background-color: rgba(255, 255, 255, 0.1);
+
+
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.networks-link:hover,
+.networks-link:focus {
+    color: $primary-white-color;
+    background-color: $accent-color;
+}
+
+
+.networks-svg {
+    fill: currentColor;
+}

@@ -1,0 +1,27 @@
+.company-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    color: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+
+    transition-property: border-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.company-link:hover,
+.company-link:focus {
+    color: $accent-color;
+    border-color: $accent-color;
+}
+
+
+.company-icons {
+    fill: currentColor;
+}
