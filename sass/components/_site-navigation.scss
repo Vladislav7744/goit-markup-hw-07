@@ -8,13 +8,13 @@
     margin-left: 93px; 
  }
  
+ 
  .site-nav {
-     display: flex;  
- }
- 
- 
- .site-nav .item:not(:last-child) {
-     margin-right: 50px;
+     display: flex; 
+     
+    & .item:not(:last-child) {
+        margin-right: 50px;
+    }
  }
  
  
@@ -31,13 +31,11 @@
      transition-property: color;
      transition-duration: 250ms;
      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-     /* outline: solid 1px tomato; */
- }
- 
- 
- .site-nav .link:hover,
- .site-nav .link:focus {
+
+    &:hover,
+    &:focus {
      color: $accent-color;
+ }
  }
  
  
@@ -45,7 +43,6 @@
      position: relative;
      color: $accent-color;
  }
- 
  
  
  .current::after {

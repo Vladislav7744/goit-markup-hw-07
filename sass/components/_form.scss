@@ -40,12 +40,11 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-
-.form-input:focus {
-    outline: none;
-    border-color: $accent-color;
+    &:focus {
+        outline: none;
+        border-color: $accent-color;
+    }
 }
 
 
@@ -57,11 +56,10 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-
-.form-input:focus ~ .form-icons {
-    fill: #188CE8;
+    .form-input:focus ~ & {
+        fill: #188CE8;
+    }
 }
 
 
@@ -86,6 +84,11 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus {
+        outline: none;
+        border-color:  $accent-color;
+    }
 }
 
 
@@ -93,11 +96,6 @@
     color: rgba(117, 117, 117, 0.5);
 }
 
-
-.form-label textarea:focus {
-    outline: none;
-    border-color:  $accent-color;
-}
 
 
 .label {
@@ -150,6 +148,7 @@
 
 
 .form-link {
+    font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     margin-left: 7px;
     text-decoration: underline;
@@ -186,10 +185,12 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-
-.form-button:hover,
-.form-button:focus {
+    &:hover,
+    &:focus {
     background-color: #188CE8;
 }
+}
+
+
+

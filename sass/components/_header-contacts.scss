@@ -4,11 +4,10 @@
     margin-top: 0px;
     margin-left: auto;
     padding-left: 0px;
-}
 
-
-.contacts-hdr .item + .item {
-    margin-left: 50px;
+    & .item + .item {
+        margin-left: 50px;
+    }
 }
 
 
@@ -26,13 +25,11 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    /* outline: solid 1px teal; */   
-}
-
-
-.contacts-hdr .link:hover,
-.contacts-hdr .link:focus {
+    
+    &:hover,
+    &:focus {
     color: $accent-color;
+}
 }
 
 
