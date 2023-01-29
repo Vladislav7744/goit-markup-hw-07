@@ -24,10 +24,12 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:focus {
+        outline: none;
+        border-color: $accent-color;
+    }
 }
 
 
-.footer-mail-form input:focus {
-    outline: none;
-    border-color: $accent-color;
-}

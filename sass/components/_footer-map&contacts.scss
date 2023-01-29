@@ -11,12 +11,12 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 
-.footer-map:hover,
-.footer-map:focus {
+    &:hover,
+    &:focus {
     color: $accent-color;
+}
 }
 
 
@@ -32,10 +32,12 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 
-.footer-contact:hover,
-.footer-contact:focus {
+    &:hover,
+    &:focus {
     color: $accent-color;
 }
+}
+
+

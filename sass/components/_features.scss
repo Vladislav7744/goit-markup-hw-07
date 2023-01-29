@@ -7,18 +7,18 @@
   }
 
 
-  .features {
+.features {
     display: flex;
 }
 
 
 .features-item {
     width: 270px;
-}
 
 
-.features-item:not(:last-child) {
+&:not(:last-child) {
     margin-right: 30px;
+}
 }
 
 
@@ -32,6 +32,7 @@
     border-radius: 4px;
     background-color: rgba(245, 244, 250, 1);
 }
+
 
 .features-icon {
     fill: currentColor;

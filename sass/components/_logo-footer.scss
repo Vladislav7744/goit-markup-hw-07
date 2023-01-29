@@ -16,10 +16,12 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 
-.footer-logo-color:hover,
-.footer-logo-color:focus {
+    &:hover,
+    &:focus {
     color: $accent-color; 
 }
+}
+
+

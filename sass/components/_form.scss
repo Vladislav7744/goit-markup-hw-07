@@ -58,7 +58,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     .form-input:focus ~ & {
-        fill: #188CE8;
+        fill: $secondary-color;
     }
 }
 
@@ -95,7 +95,6 @@
 .form-label textarea :placeholder-shown {
     color: rgba(117, 117, 117, 0.5);
 }
-
 
 
 .label {

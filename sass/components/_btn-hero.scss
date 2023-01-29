@@ -26,12 +26,12 @@
     &:hover,
     &:focus {
     cursor: pointer;
-    background-color:#188CE8;
+    background-color: $secondary-color;
     color: $primary-white-color;
 }
 }
 
 
 .btn:active {
-    color: #188CE8;
+    color: $secondary-color;
 }

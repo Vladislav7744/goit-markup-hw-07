@@ -12,13 +12,13 @@
     transition-property: border-color, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 
-.company-link:hover,
-.company-link:focus {
+    &:hover,
+    &:focus {
     color: $accent-color;
     border-color: $accent-color;
+}
 }
 
 
