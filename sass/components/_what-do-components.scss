@@ -1,20 +1,35 @@
-.pictures-what-do.list {
+.benefits__list {
     display: flex;
     justify-content: center;
+
+
+    & li:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 
-.pictures-what-do li:not(:last-child) {
-    margin-right: 30px;
+
+.benefits__item {
+    display: block;
+    margin-right: 0px;
 }
 
 
-.what-do-thumb {
+.benefits__thumb {
     position: relative;
+
+
+    & img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 
-.what-do-content {
+
+.benefits__content {
     position: absolute;
     bottom: 0px;
     width: 370px;
@@ -29,14 +44,6 @@
 }
 
 
-.what-do-img {
-    display: block;
-    margin-right: 0px;
-}
 
 
-.what-do-img img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
+

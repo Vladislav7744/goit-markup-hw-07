@@ -735,7 +735,7 @@ body {
   line-height: 24px;
 }
 
-.section-what-do {
+.benefits {
   padding-top: 0px;
   padding-bottom: 94px;
   margin-left: auto;
@@ -743,20 +743,29 @@ body {
   background-color: #FFFFFF;
 }
 
-.pictures-what-do.list {
+.benefits__list {
   display: flex;
   justify-content: center;
 }
-
-.pictures-what-do li:not(:last-child) {
+.benefits__list li:not(:last-child) {
   margin-right: 30px;
 }
 
-.what-do-thumb {
-  position: relative;
+.benefits__item {
+  display: block;
+  margin-right: 0px;
 }
 
-.what-do-content {
+.benefits__thumb {
+  position: relative;
+}
+.benefits__thumb img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.benefits__content {
   position: absolute;
   bottom: 0px;
   width: 370px;
@@ -770,18 +779,14 @@ body {
   color: #FFFFFF;
 }
 
-.what-do-img {
-  display: block;
-  margin-right: 0px;
+.team-list {
+  display: flex;
+}
+.team-list .team-list__item:not(:last-child) {
+  margin-right: 30px;
 }
 
-.what-do-img img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.team {
+.team-list__item {
   margin-right: 0px;
   text-align: center;
   border-radius: 0px 0px 4px 4px;
@@ -789,23 +794,15 @@ body {
   background-color: #FFFFFF;
 }
 
-.team-list {
-  display: flex;
-}
-
-.team-list .team:not(:last-child) {
-  margin-right: 30px;
-}
-
-.team-img {
+.team-list__img {
   display: block;
 }
 
-.team-text-content {
+.team-content {
   padding: 30px 10px;
 }
 
-.team-title {
+.team-content__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -814,7 +811,7 @@ body {
   color: #212121;
 }
 
-.team-text {
+.team-content__text {
   font-size: 16px;
   line-height: 1.18;
 }
