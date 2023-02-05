@@ -1,10 +1,10 @@
-.is-hidden-title {
+.features__hiddenTitle {
     width: 0;
     height: 0;
     visibility: hidden;
     pointer-events: none;
     opacity: 0;
-  }
+}
 
 
 .features {
@@ -12,7 +12,7 @@
 }
 
 
-.features-item {
+.features__item {
     width: 270px;
 
 
@@ -22,7 +22,7 @@
 }
 
 
-.features-svg {
+.features__svg {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,12 +34,12 @@
 }
 
 
-.features-icon {
+.features__icon {
     fill: currentColor;
 }
 
 
-.features .title {
+.features__title {
     display: inline-block;
     margin-bottom: 10px;
     font-weight: 700;
@@ -51,7 +51,7 @@
 }
 
 
-.features .text {
+.features__text {
     display: inline-block;
     line-height: 24px;
 }

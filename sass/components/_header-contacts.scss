@@ -5,13 +5,16 @@
     margin-left: auto;
     padding-left: 0px;
 
-    & .item + .item {
-        margin-left: 50px;
-    }
+    
 }
 
 
-.contacts-hdr .link {
+.contacts-hdr__item + .contacts-hdr__item {
+    margin-left: 50px;
+}
+
+
+.contacts-hdr__link {
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -33,7 +36,7 @@
 }
 
 
-.icon-mail-svg {
+.contacts-hdr__iconMail {
     width: 16px;
     height: 12px;
     margin-right: 10px;
@@ -41,7 +44,7 @@
 }
 
 
-.icon-tel-svg {
+.contacts-hdr__iconTel {
     width: 10px;
     height: 16px;
     margin-right: 10px;
