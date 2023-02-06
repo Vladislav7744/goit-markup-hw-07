@@ -1,16 +1,16 @@
-.social-networks {
+.social-list {
     margin-top: 16px;
     display: flex;
     justify-content: center;
 }
 
 
-.social-item:not(:last-child) {
+.social-list__tem:not(:last-child) {
     margin-right: 10px;
 }
 
 
-.social-logo-link {
+.social-list__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,16 +23,17 @@
     transition-property: background-color, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+        color: $primary-white-color;
+    }
 }
 
 
-.social-logo-link:hover,
-.social-logo-link:focus {
-    background-color: $accent-color;
-    color: $primary-white-color;
-}
 
-
-.social-logo {
+.social-list__logo {
     fill: currentColor;
 }

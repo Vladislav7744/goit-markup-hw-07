@@ -1,9 +1,9 @@
-.customers {
+.customers-list {
     display: flex;
     justify-content: center;
 }
 
 
-.customers-item:not(:last-child) {
+.customers-list__item:not(:last-child) {
     margin-right: 30px;
 }

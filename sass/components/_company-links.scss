@@ -1,4 +1,4 @@
-.company-link {
+.company-card {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,6 +22,6 @@
 }
 
 
-.company-icons {
+.company-card__icon {
     fill: currentColor;
 }
