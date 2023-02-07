@@ -1,4 +1,4 @@
-.networks-list {
+.footer-networks__list {
     display: flex;
 
 
@@ -9,7 +9,7 @@
 }
 
 
-.networks-link {
+.footer-networks__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,6 +33,6 @@
 }
 
 
-.networks-svg {
+.footer-networks__image {
     fill: currentColor;
 }

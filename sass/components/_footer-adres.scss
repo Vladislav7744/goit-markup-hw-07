@@ -1,8 +1,8 @@
-.adress .adress-item:not(:last-child) {
-    margin-bottom: 9px;
+.footer-adress {
+    font-style: normal;
 }
 
 
-.footer-adress {
-    font-style: normal;
+.footer-adress__list .footer-adress__item:not(:last-child) {
+    margin-bottom: 9px;
 }

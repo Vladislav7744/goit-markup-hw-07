@@ -56,3 +56,12 @@ body {
 .link {
     text-decoration: none;
 }  
+
+
+.is-hidden-title {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    pointer-events: none;
+    opacity: 0;
+}
