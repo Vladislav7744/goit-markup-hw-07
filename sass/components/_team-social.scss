@@ -5,35 +5,9 @@
 }
 
 
-.social-list__tem:not(:last-child) {
+.social-list__item:not(:last-child) {
     margin-right: 10px;
 }
 
 
-.social-list__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    color: #AFB1B8;
 
-
-    transition-property: background-color, color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-
-    &:hover,
-    &:focus {
-        background-color: $accent-color;
-        color: $primary-white-color;
-    }
-}
-
-
-
-.social-list__logo {
-    fill: currentColor;
-}

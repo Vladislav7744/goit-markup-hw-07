@@ -1,17 +1,17 @@
-.project-img {
+.product-thumb__img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
 
-.desc {
+.project-desc {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
 }
 
 
-.project-title {
+.project-desc__title {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
@@ -23,7 +23,7 @@
 }
 
 
-.project-text {
+.project-desc__text {
     font-size: 16px;
     line-height: 1.87;
     color: $primary-text-color;
