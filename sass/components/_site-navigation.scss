@@ -31,13 +31,16 @@
     &:focus {
      color: $accent-color;
  }
- }
+
+
+    &.current {
+    position: relative;
+    color: $accent-color;
+}
+}
  
  
- .site-navigation__link.current {
-     position: relative;
-     color: $accent-color;
- }
+
  
  
  .current::after {
