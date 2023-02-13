@@ -19,9 +19,11 @@
     color: $accent-color;
     border-color: $accent-color;
 }
-}
 
 
-.company-card__icon {
+    &__icon {
     fill: currentColor;
 }
+}
+
+

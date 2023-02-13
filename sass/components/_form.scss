@@ -89,11 +89,11 @@
         outline: none;
         border-color:  $accent-color;
     }
-}
 
 
-.form__label textarea :placeholder-shown {
-    color: rgba(117, 117, 117, 0.5);
+    & :placeholder-shown {
+        color: rgba(117, 117, 117, 0.5);
+    }
 }
 
 
@@ -111,20 +111,21 @@
     padding: 0px;
     clip: rect(0 0 0 0);
     overflow: hidden;
+
+
+    &:checked + .form__checkboxIcon {
+        border-color: $accent-color;
+        background-image: url('../images/icon-check.svg');
+        background-origin: border-box;
+    }
+
+    
+
+    &:focus + .form__checkboxIcon{
+        border-color: $accent-color;
+    }
 }
 
-
-
-.form__check:checked + .form__checkboxIcon {
-    border-color: $accent-color;
-    background-image: url('../images/icon-check.svg');
-    background-origin: border-box;
-}
-
-
-.form__check:focus + .form__checkboxIcon{
-    border-color: $accent-color;
-}
 
 
 .form__checkboxIcon {
